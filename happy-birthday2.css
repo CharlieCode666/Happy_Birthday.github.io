@@ -1,0 +1,190 @@
+body{
+  background: #151320;
+}
+
+.boxbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+background: #0080ff;
+box-shadow:  -5px -5px 10px #0071e0,
+             5px 5px 10px #008fff;
+  
+  animation: backgrounds 3s infinite;
+}
+
+.h-1{
+  animation: color 3s infinite;
+}
+
+@keyframes color{
+  0%, 30%{
+    color: #ffff00;
+  }
+  60%, 80%{
+    color: #ff0055
+  }
+}
+ @keyframes backgrounds{
+   30%, 90%{
+     background: #9933ff;
+   }
+   55%, 75%, 100%{
+     background: #6666ff
+   }
+ }
+
+.p1{
+  position: relative;
+  color: red;
+  animation: p01 3s infinite;
+}
+
+@keyframes p01{
+  0%, 100%{
+    bottom: 0px;
+  }
+  50%{
+    bottom: 20px;
+  }
+  40%{
+    color: #ff3300;
+  }
+  80%{
+    color: #cc0000;
+  }
+}
+
+.p2{
+  position: relative;
+  color: orange;
+  animation: p02 3s infinite;
+  animation-delay: 0.2s;
+}
+
+@keyframes p02{
+  0%, 100%{
+    bottom: 0px;
+  }
+  50%{
+    bottom: 20px;
+  }
+  40%{
+    color: #ff9933;
+  }
+  80%{
+    color: #ffa500;
+  }
+}
+
+.p3{
+  position: relative;
+  color: yellow;
+  animation: p03 3s infinite;
+  animation-delay: 0.3s;
+}
+
+@keyframes p03{
+  0%, 100%{
+    bottom: 0px;
+  }
+  50%{
+    bottom: 20px;
+  }
+  40%{
+    color: #ffcc00;
+  }
+  80%{
+    color: #ffff66;
+  }
+}
+
+.p4{
+  position: relative;
+  color: green;
+  animation: p04 3s infinite;
+  animation-delay: 0.4s;
+}
+
+@keyframes p04{
+  0%, 100%{
+    bottom: 0px;
+  }
+  50%{
+    bottom: 20px;
+  }
+  40%{
+    color: #00ff00;
+  }
+  80%{
+    color: #00cc00;
+  }
+}
+
+.p5{
+  position: relative;
+  color: blue;
+  animation: p05 3s infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes p05{
+  0%, 100%{
+    bottom: 0px;
+  }
+  50%{
+    bottom: 20px;
+  }
+  40%{
+    color: #0066ff;
+  }
+  80%{
+    color: #0099ff;
+  }
+}
+
+.p6{
+  position: relative;
+  color: indigo;
+  animation: p06 3s infinite;
+  animation-delay: 0.6s;
+}
+
+@keyframes p06{
+  0%, 100%{
+    bottom: 0px;
+  }
+  50%{
+    bottom: 20px;
+  }
+  40%{
+    color: #00ccff;
+  }
+  80%{
+    color: #00ffff;
+  }
+}
+
+.p7{
+  position: relative;
+  color: purple;
+  animation: p07 3s infinite;
+  animation-delay: 0.7s;
+}
+
+@keyframes p07{
+  0%, 100%{
+    bottom: 0px;
+  }
+  50%{
+    bottom: 20px;
+  }
+  40%{
+    color: #ff00ff;
+  }
+  80%{
+    color: #9900cc;
+  }
+}

@@ -1,0 +1,35 @@
+body{
+  background: #151320;
+}
+
+#canvas{
+  width: 100%;
+  border: 3px solid #9966ff;
+}
+
+button{
+  cursor: pointer;
+  border:0;
+  color:#000;
+  background: #ff002f2f;
+  padding: 18px 32px;
+  border-radius: 6px;
+  font: 600 22px 'Montserrat';
+  box-shadow: 0 6px 0 #ff0030;
+  transition: .3s;
+}
+
+button:active{
+  transform: translateY(5px);
+  box-shadow: 0 3px 0 #ff0030;
+}
+
+.left{
+  width: 80px;
+  position: relative; left: 40px; top: 80px;
+}
+
+.right{
+  width: 80px;
+  position: relative; left: 190px; top: 80px;
+}
